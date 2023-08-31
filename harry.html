@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <div id="loginsection">
+      <div class="login">
+        <form action="api/api.php" method="post">
+          <h1>Login</h1>
+          <hr />
+          <p>Explore the World!</p>
+          <input type="number" name="mobile" placeholder="Phone Number" required />
+          <input type="password" name="password" placeholder="Password" required />
+          <button id="loginbtn" name="loginbtn" type="submit" >Login</button>
+          <div class="helo2"><p style="margin-left:50px;">New User?<a href="routes/register.html">Register Here</a></p></div>
+        </form>
+      </div>
+      <div class="pic">
+        <img src="images/bg.jpg" />
+      </div>
+    </div>
+    <div class="helo"></div>
+  </body>
+</html>
