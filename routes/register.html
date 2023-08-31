@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="../css/stylesheetreg.css">
+  </head>
+  <body>
+    <div id="registersection">
+      <div class="register">
+        <form action="../api/api.php" method="post" enctype="multipart/form-data">
+          <h1>Registration</h1>
+          <hr/><br><br>
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="number" name="mobile" placeholder="Phone Number" required><br>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="city" placeholder="City" required><br>
+          <input type="number" name="age" placeholder="Age" required>
+          <input type="text" name="short" placeholder="Short Description" required><br>
+          <input type="number" name="english" placeholder="English Language Percentage" required>
+          <input type="number" name="foreignl" placeholder="Foreign Language Percentage" required><br>
+          <input type="number" name="html" placeholder="Html Knowledge" required>
+          <input type="number" name="css" placeholder="Css Knowledge" required><br>
+          <input type="number" name="javascript" placeholder="Javascript Knowledge" required>
+          <input type="number" name="years" placeholder="Years Of Experience" required><br>
+          <input type="number" name="projects" placeholder="Completed Projects" required>
+          <input type="number" name="customer" placeholder="Happy Customer" required><br>
+          <input type="file" name="uploadfile" placeholder="Image Here" required>
+          <input type="password" name="password" placeholder="Password" required>
+         <input type="file" name="cer1" placeholder="Image Here" > 
+         <input type="file" name="cer2" placeholder="Image Here" >
+         <input type="file" name="cer3" placeholder="Image Here" >
+         <input type="file" name="cer4" placeholder="Image Here" >
+          <textarea style="border-color:white;margin-left: 230px;font-size: 20px;" name="desc1" cols="17" rows="5" placeholder="SERVICE 1"></textarea>
+          <textarea style="border-color:white;font-size: 20px;"name="desc2" cols="17" rows="5" placeholder="SERVICE 2"></textarea>
+          <textarea style="border-color:white;font-size: 20px;"name="desc3" cols="17" rows="5" placeholder="SERVICE 3"></textarea><br><br>
+          <textarea style="border-color:white;margin-left: 345px;font-size :20px;" name="e1" cols="17" rows="5" placeholder="EDUCATION 1"></textarea>
+          <textarea style="border-color:white;font-size: 20px;"name="e2" cols="17" rows="5" placeholder="EDUCATION 2"></textarea><br><br>
+          <textarea style="border-color:white;margin-left: 345px;font-size: 20px;" name="wh1" cols="17" rows="5" placeholder="WORK HISTORY 1"></textarea>
+          <textarea style="border-color:white;font-size: 20px;"name="wh2" cols="17" rows="5" placeholder="WORK HISTORY 2"></textarea>
+          <br><button id="registerbtn" name="registerbtn" type="submit">Register</button>
+          <p> Already User?<a href="../harry.html">Login Here</a></p>
+          <img class="hem"src="../images/bg.jpg" >
+        </form>
+     <div class="helo"></div>
+  </body>
+</html>
+
+
+
